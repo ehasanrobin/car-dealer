@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Hyundai Creta Facelift",
+
+    "rating": "4.5",
+    "supplierName": "john doe",
+    "stock": 5,
+    "regularPrice": "45000",
+    "discountPrice": "42000",
+    "img": "https://i.ibb.co/1nTNx69/07.jpg"
+  },
+  {
+    "name": "Ferrari Purosangue SUV",
+
+    "rating": "4.9",
+    "supplierName": "john doe",
+    "stock": 5,
+    "regularPrice": "55000",
+    "discountPrice": "53500",
+    "img": "https://i.ibb.co/3p7cRSW/05.jpg"
+  },
+  {
+    "name": "Maruti Suzuki S-Cross 2022",
+
+    "rating": "4.2",
+    "supplierName": "john doe",
+    "stock": 5,
+    "regularPrice": "35000",
+    "discountPrice": "34700",
+    "img": "https://i.ibb.co/zmKhhwF/02.jpg"
+  },
+  {
+    "name": "Hyundai Venue N Line",
+
+    "rating": "4",
+    "supplierName": "john doe",
+    "stock": 5,
+    "regularPrice": "30000",
+    "discountPrice": "29500",
+    "img": "https://i.ibb.co/zmKhhwF/02.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Toyota Urban Cruiser Hyryder",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, proin integer erat habitasse fringilla lectus montes ullamcorper, laoreet mus mauris sollicitudin id cras. Facilisis tristique morbi nullam cursus scelerisque a, gravida netus litora eros nulla semper, fringilla enim tellus porttitor elementum. Et nibh",
+    "rating": "4.5",
+    "supplierName": "john doe",
+    "stock": 5,
+    "regularPrice": "40000",
+    "discountPrice": "38000",
+    "img": "https://i.ibb.co/bB76LXd/01-1.jpg"
+  }
+]

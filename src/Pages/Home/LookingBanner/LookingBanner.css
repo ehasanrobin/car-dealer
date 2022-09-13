@@ -1,0 +1,21 @@
+.looking-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.578)),
+    url("./../../../images/02 (1).jpg");
+  background-size: fit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.transparentbg {
+  background: transparent;
+  color: #fff;
+}
+.searchbtnrRed {
+  background: #db2d2e;
+  border: none;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+.searchbtnrRed:hover {
+  background: #000 !important;
+}

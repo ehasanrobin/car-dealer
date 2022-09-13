@@ -1,0 +1,7 @@
+.inventory-model {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  flex-: inherit;
+  justify-content: center;
+}

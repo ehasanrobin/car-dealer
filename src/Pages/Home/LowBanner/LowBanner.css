@@ -1,0 +1,10 @@
+button.theme-btn {
+    background: #D12B2B;
+    padding: 5px 18px;
+    color: #fff;
+    transition: all .5s;
+}
+
+button.theme-btn:hover {
+    background-color: #292121;
+}

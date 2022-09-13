@@ -1,0 +1,16 @@
+.inventorytitle.text-center sub {
+  font-size: 22px;
+  color: #656262;
+}
+
+.inventorytitle.text-center h1 {
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.inventorytitle.text-center {
+  padding: 20px 0;
+}
+.intentory-seciton.container {
+  padding: 60px 0;
+}
