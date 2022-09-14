@@ -11,7 +11,7 @@ import logo from "../../../images/logo-dark.png";
 import "./Header.css";
 const Header = () => {
   const [user, user1] = useAuthState(auth);
-  console.log(user, user1);
+
   return (
     <Navbar bg="light" expand="lg">
       <Container>

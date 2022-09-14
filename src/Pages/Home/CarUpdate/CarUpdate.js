@@ -15,7 +15,7 @@ const CarUpdate = () => {
   const [istock, setIStock] = useState(0);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/cars/${id}`)
+    fetch(`https://cryptic-falls-18058.herokuapp.com/cars/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setInventory(data);
@@ -44,7 +44,7 @@ const CarUpdate = () => {
     let quantity = stock;
     console.log(id);
     if (proceed) {
-      fetch(`http://localhost:5000/cars/${id}`, {
+      fetch(`https://cryptic-falls-18058.herokuapp.com/cars/${id}`, {
         method: "PUT", // Method itself
         headers: {
           "Content-type": "application/json; charset=UTF-8", // Indicates the content

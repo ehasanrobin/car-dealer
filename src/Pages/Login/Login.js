@@ -36,11 +36,24 @@ const Login = () => {
     return navigate(from, { replace: true });
   }
 
-  const loginForm = (event) => {
+  const loginForm = async (event) => {
     event.preventDefault();
     const email = event.target.email.value;
     const password = event.target.password.value;
-    signInWithEmailAndPassword(email, password);
+    const logginSuccess = signInWithEmailAndPassword(email, password);
+    console.log(logginSuccess);
+    if (logginSuccess == true) {
+      fetch("https://cryptic-falls-18058.herokuapp.com/login", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      })
+        .then((res) => res.json())
+        .then((data) => console.log(data));
+    }
   };
   const registerForm = async (event) => {
     event.preventDefault();

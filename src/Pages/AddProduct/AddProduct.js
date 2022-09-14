@@ -24,7 +24,7 @@ const AddProduct = () => {
     };
     console.log(data);
 
-    fetch("http://localhost:5000/addProduct", {
+    fetch("https://cryptic-falls-18058.herokuapp.com/addProduct", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

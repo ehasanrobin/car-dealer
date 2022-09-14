@@ -8,7 +8,7 @@ const ManageProduct = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      fetch(`http://localhost:5000/cars/${id}`, {
+      fetch(`https://cryptic-falls-18058.herokuapp.com/cars/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.text()) // or res.json()
@@ -25,7 +25,7 @@ const ManageProduct = () => {
             <h1>Cars Collection</h1>
           </div>
         </Row>
-        <Row md={4}>
+        <Row lg={4} xs={2}>
           {cars.map((car) => (
             <Col className="mt-3">
               <Card className="cars-box">

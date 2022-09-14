@@ -14,3 +14,7 @@
 .intentory-seciton.container {
   padding: 60px 0;
 }
+button.btn.border.m-2.active {
+  color: #fff;
+  background: #c81616;
+}
