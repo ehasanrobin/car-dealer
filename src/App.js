@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AddProduct from "./Pages/AddProduct/AddProduct";
+import Error from "./Pages/Error/Error";
 import CarUpdate from "./Pages/Home/CarUpdate/CarUpdate";
 import Home from "./Pages/Home/Home";
 import Inventories from "./Pages/Inventories/Inventories";
@@ -50,6 +51,7 @@ function App() {
             </PrivateRoute>
           }
         ></Route>
+        <Route path="*" element={<Error></Error>}></Route>
       </Routes>
 
       <Footer></Footer>
