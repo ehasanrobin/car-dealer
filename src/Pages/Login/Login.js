@@ -43,7 +43,7 @@ const Login = () => {
     const logginSuccess = signInWithEmailAndPassword(email, password);
     console.log(logginSuccess);
     if (logginSuccess == true) {
-      fetch("https://cryptic-falls-18058.herokuapp.com/login", {
+      fetch("https://car-dealer-server-eosin.vercel.app/login", {
         method: "POST",
         headers: {
           Accept: "application/json",

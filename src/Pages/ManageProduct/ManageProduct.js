@@ -8,7 +8,7 @@ const ManageProduct = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      fetch(`https://cryptic-falls-18058.herokuapp.com/cars/${id}`, {
+      fetch(`https://car-dealer-server-eosin.vercel.app/cars/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.text()) // or res.json()

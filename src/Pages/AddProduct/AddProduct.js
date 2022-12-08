@@ -24,7 +24,7 @@ const AddProduct = () => {
     };
     console.log(data);
 
-    fetch("https://cryptic-falls-18058.herokuapp.com/addProduct", {
+    fetch("https://car-dealer-server-eosin.vercel.app/addProduct", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

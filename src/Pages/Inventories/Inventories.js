@@ -11,14 +11,14 @@ const Inventories = () => {
 
   useEffect(() => {
     fetch(
-      `https://cryptic-falls-18058.herokuapp.com/cars?page=${pages}&size=${size}`
+      `https://car-dealer-server-eosin.vercel.app/cars?page=${pages}&size=${size}`
     )
       .then((res) => res.json())
       .then((data) => setCars(data));
   }, [pages, size]);
 
   useEffect(() => {
-    fetch("https://cryptic-falls-18058.herokuapp.com/productCount")
+    fetch("https://car-dealer-server-eosin.vercel.app/productCount")
       .then((res) => res.json())
       .then((data) => setPagesCount(Math.ceil(data.count / 5)));
   }, []);

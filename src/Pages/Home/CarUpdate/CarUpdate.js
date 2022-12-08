@@ -15,7 +15,7 @@ const CarUpdate = () => {
   const [istock, setIStock] = useState(0);
 
   useEffect(() => {
-    fetch(`https://cryptic-falls-18058.herokuapp.com/cars/${id}`)
+    fetch(`https://car-dealer-server-eosin.vercel.app/cars/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setInventory(data);
@@ -44,7 +44,7 @@ const CarUpdate = () => {
     let quantity = stock;
     console.log(id);
     if (proceed) {
-      fetch(`https://cryptic-falls-18058.herokuapp.com/cars/${id}`, {
+      fetch(`https://car-dealer-server-eosin.vercel.app/cars/${id}`, {
         method: "PUT", // Method itself
         headers: {
           "Content-type": "application/json; charset=UTF-8", // Indicates the content

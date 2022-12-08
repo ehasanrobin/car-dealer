@@ -4,7 +4,7 @@ const useCars = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    fetch("https://cryptic-falls-18058.herokuapp.com/cars")
+    fetch("https://car-dealer-server-eosin.vercel.app/cars")
       .then((res) => res.json())
       .then((data) => setCars(data));
   }, [cars]);
